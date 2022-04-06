@@ -15,13 +15,15 @@ Proceso datos_mascota
 	Escribir "Indique el tipo de mascota";
 	Leer tipo_mascota;
 	
-	Escribir "Indique nombres del dueño";
+	Escribir "Indique nombres del dueÃ±o";
 	Leer nombres_dueno;
 	
-	Escribir "Indique apellidos del dueño";
+	Escribir "Indique apellidos del dueÃ±o";
 	Leer apellidos_dueno;
 	
-	Escribir nombre_mascota, " es un(a) ",tipo_mascota,", el cual, tiene ",edad_mascota," años de edad y ",nombres_dueno," ",apellidos_dueno," es actualmente su dueño(a).";
+	Limpiar pantalla;
+	
+	Escribir nombre_mascota, " es un(a) ",tipo_mascota,", el cual, tiene ",edad_mascota," aÃ±os de edad y ",nombres_dueno," ",apellidos_dueno," es actualmente su dueÃ±o(a).";
 	
 	
 	
